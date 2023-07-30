@@ -1,0 +1,26 @@
+{
+  "name": "xmltojson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menty44/nodexmltojson.git"
+  },
+  "keywords": [
+    "xmltojson"
+  ],
+  "author": "menty44@gmail.com (Fredrick Oluoch)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/menty44/nodexmltojson/issues"
+  },
+  "homepage": "https://github.com/menty44/nodexmltojson#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
