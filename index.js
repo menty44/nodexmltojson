@@ -3,6 +3,7 @@ var app = express();
 
 // import File System Module
 var fs = require("fs");
+require('dotenv').config()
 
 // import xml2js Module
 var { parseString }  = require("xml2js");
@@ -24,7 +25,7 @@ var xmldata = '<?xml version=”1.0" encoding=”UTF-8"?>' +
 
 // parsing xml data
 
-fs.readFile( '/Users/mac/Documents/testEmtechBatch-ptstmts.xml', function (err, data) {
+fs.readFile( process.env.FILE_PATH, function (err, data) {
    if (err) {
       throw err;
    }
